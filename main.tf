@@ -18,6 +18,8 @@ resource "aws_iam_group_membership" "Team3" {
   group = aws_iam_group.Bill.name
 }
 
+#terraform import aws_iam_user.Cedric miyeon
+#terraform import aws_iam_user.Tise mina
 
 
  
